@@ -37,4 +37,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lanzar Notificación" />
+
+    <Button
+        android:id="@+id/btnHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noticias El Pais" />
+
+    <TextView
+        android:id="@+id/txtNoticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>
