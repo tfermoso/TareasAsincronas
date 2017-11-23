@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tomas.tareasasincronas.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnBloquea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bloquea APP" />
+
+    <Button
+        android:id="@+id/btnHilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hilo" />
+
+    <Button
+        android:id="@+id/btnAsinkTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsinkTask" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanzar Notificación" />
+</LinearLayout>
